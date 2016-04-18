@@ -1,0 +1,16 @@
+# Tutorial2 
+#Question2a: To Integrate cos(x) from 0 to pi/2 for the range numbers of points using the simple mothod, including 10,30,100,300,1000 points between 0 and pi/2.
+import numpy as hp
+x0 = 0
+up = hp.pi/2
+change = [(up-x0)/10,(up-x0)/30,(up-x0)/100,(up-x0)/300,(up-x0)/1000]  
+for dx in change:
+     x = hp.arange(x0,up,dx)
+     M = hp.cos(x)
+     total = M.sum()*dx  
+     print 'integral is ' + repr(total) + ' with dx=' + repr(dx)
+
+
+
+# QUESTION2B: How does error scale with number of points?
+# ANSWER:As the number of spacing increases the result approaches the exact value (answer), but as the number of spacing decreases the results is abit far from the exact answer. Then we can conclude that, the error scale decreases as the number of points of equally spacing increases.  

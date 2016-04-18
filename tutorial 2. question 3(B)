@@ -1,0 +1,9 @@
+# TUTORIAL2.
+# QUESTION3(B):How to take all the even points from an array? 
+import numpy as hp
+K = hp.arange(1,48)
+for even in K:
+    if even%2==0:
+       print even + 2, 'is an even point'
+       if even == len(K)-5:
+          break      

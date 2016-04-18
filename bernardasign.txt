@@ -1,0 +1,39 @@
+                                      UNIVERSITY OF KWAZULU-NATAL  
+                                           PHYSICS DEPARTMENT                                  
+
+                      
+
+TO: PROF. JONATHAN SIEVERS
+
+NAME: BERNARD MMAME.
+
+STUDENT NO: 216075383
+
+TUTORIAL QUESTIONS (SET 1)
+
+ MODULE: COMPUTATIONAL PHYSICS (2016). 
+
+
+
+QUESTION 1.
+How to list all files in a directory, with the most rest one displayed last.
+ANSWER: By writing the command ls-lt-r
+
+
+QUESTION 2.
+(A). How to display the first 25 lines of a file?
+ANSWER: AS: By changing directory where the file is saved by writing cd on the terminal, then  use the   command 'head -25 filename'.
+/home/bernard/mypython and the file  name is tutorial1.pyth. The command is as follows: 
+         bernard@bernard-HP-620-Notebook-PC:~$ 
+         bernard@bernard-HP-620-Notebook-PC:~$ cd /home/bernard/mypython
+         bernard@bernard-HP-620-Notebook-PC:~/mypython$
+         bernard@bernard-HP-620-Notebook-PC:~/mypython$ head -25 tutorial1.pyth
+
+(B).How to display just lines 16 through 25?
+ANSWER;By writing the command: head-25 tutorial1.pyth|tail -10. Thats; 
+         bernard@bernard-HP-620-Notebook-PC:~/mypython$ head -25 tutorial1.pyth|tail -10
+    
+QUESTION 3.
+How to display all the multiple man pages with the same name?
+ANSWER:By using the command ls  /usr/share/man/man1 or2,3,4,5.......  as long as the file exists in the directory. Thats;
+         bernard@bernard-HP-620-Notebook-PC:~/mypython$ ls /usr/share/man/man1

@@ -1,0 +1,4 @@
+NAME: Bernard Mmame 
+EMAIL: bernadmmame@gmail.com
+PROJECT: I have not yet descided on the topic, but I would like to do some thing related to Space Physics.
+I would like to be able to evaluate data using python language for my project. 

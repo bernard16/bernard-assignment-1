@@ -1,0 +1,8 @@
+# TUTORIAL2.
+# QUESTION3(A):How to take all odd pints from an array?
+import numpy as hp
+K = hp.arange(1,48)
+for odd in K:
+    if odd%2==1:
+       print odd, 'is an odd point'
+

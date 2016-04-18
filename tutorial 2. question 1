@@ -1,0 +1,6 @@
+# Tutorial2
+# Question1:To Write a python script which will make a vector of n evenly spaced numbers between 0 and pi/2 that is; x[0]=0, x[n-1]= pi/2 
+import numpy as hp
+n= 95
+x = hp.linspace(0,hp.pi/2,n) 
+print x
